@@ -257,7 +257,6 @@ Dynamic_set& operator-(Dynamic_set& set_1, Dynamic_set& set_2){
 ///MENU
 
 void display_menu(Dynamic_set* sets, int number_of_sets){
-    cout<<"Dragulin Andrei - 141 - Tema 1 - Nume proiect: Multime dinamica\n\n";
     for(int i=0;i<number_of_sets;i++){
         cout<<"SET["<<i<<"]: ";
         cout<<sets[i];
