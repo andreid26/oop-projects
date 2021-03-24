@@ -7,18 +7,12 @@ private:
     int value;
     Node *next;
 public:
-    Node();
     Node(int value, Node *next);
     Node(Node &cpy);
     int get_value(){return value;}
     Node* get_next(){return next;}
     friend class Dynamic_set;
 };
-
-Node::Node(){
-    this->value = NULL;
-    this->next = NULL;
-}
 
 Node::Node(int value=0, Node *next = NULL){
     this->value = value;
